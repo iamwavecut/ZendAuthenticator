@@ -1,0 +1,7 @@
+<?php
+
+/*** Just add those lines to your MoxieManager's config.php */
+$moxieManagerConfig['authenticator'] = 'ZendAuthenticator';
+//$moxieManagerConfig['ZendAuthenticator.LibraryPath'] = '/usr/local/zend/share/ZendFramework/library/'; // optional ZF include path, if not global
+
+?>

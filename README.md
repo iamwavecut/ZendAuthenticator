@@ -3,13 +3,13 @@ ZendAuthenticator is just an auth plugin for MoxieManager.
 
 ## Installation
 To install just copy `plugins` folder into your MoxieManager's installation path.
-==
+
 Next add some lines to your MoxieManager's `config.php`:
 ```
 $moxieManagerConfig['authenticator'] = 'ZendAuthenticator';
 //$moxieManagerConfig['ZendAuthenticator.LibraryPath'] = '/usr/local/zend/share/ZendFramework/library/'; // optional ZF include path, if not global
 ```
-==
+
 ## License
 
 Software released under the MIT license.
